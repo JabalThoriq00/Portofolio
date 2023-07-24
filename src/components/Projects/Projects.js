@@ -40,7 +40,7 @@ function Projects() {
           {projects.map((project) => (
             <Col md={4} className="project-card" key={project.id}>
               <ProjectCard
-                imgPath={project.imgPath}
+                imgPath={"https://raw.githubusercontent.com/"+project.full_name+"/main/src/Assets/Projects/blog.png"}
                 isBlog={false}
                 title={project.name}
                 description={project.description}
